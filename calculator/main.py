@@ -86,7 +86,6 @@ class CalculatorApp(ft.Container):
                         ActionButton(text="=", button_clicked=self.button_clicked),
                     ]
                 ),
-                ft.Text("Scientific Functions", color=ft.colors.LIGHT_BLUE, size=18),
                 ft.Row(
                     controls=[
                         ScientificButton(text="sin", button_clicked=self.button_clicked),
